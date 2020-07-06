@@ -186,7 +186,7 @@ namespace CustodyAlam
             while (AlarmActivated == true)
             {
                 TriggerServerEvent("Server:CustodyAlarm", position, name, false);
-                await Delay(7900);
+                await Delay(6016);
             }
         }
     }
